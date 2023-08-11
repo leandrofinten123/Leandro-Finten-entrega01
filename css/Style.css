@@ -340,7 +340,7 @@ border-color: var(--color-blue);
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-left: 90px;
+    padding-left: 60px;
 }
 .desktop1 {
     padding: 16px;
