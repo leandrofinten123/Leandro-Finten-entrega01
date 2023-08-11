@@ -70,6 +70,11 @@ section div h2{
     width: 463px;
     border-radius: 12px;
 }
+.box3 h2{
+    color: var(--color-gray2);
+    font-size: 24px;
+    font-weight: 600;
+}
 .skills{
     display: flex;
 flex-direction: column;
@@ -123,6 +128,11 @@ align-self: stretch;
     height: 10px;
     flex-shrink: 0;
     background-color:var(--color-blue);
+}
+.box4 h2{
+    color: var(--color-gray2);
+    font-size: 24px;
+    font-weight: 600;
 }
 .botones{
     display: flex;
@@ -199,6 +209,7 @@ border-color: var(--color-blue);
 .parrafo4{
     font-size: 18px;
     padding-top: 20px;
+    color: var(--color-gray);
 }
 .box5 h2{
     margin-top: 20px;
@@ -267,6 +278,17 @@ border-color: var(--color-blue);
     margin-top: 30px;
     background-color: var(--color-white);
     border-radius: 12px;
+}
+.box6 h2{
+    color: var(--color-gray2);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box7 h2{
+    color: var(--color-gray2);
+    font-size: 24px;
+    font-weight: 600;
 }
 .certificados{
     padding-bottom: 20px;
