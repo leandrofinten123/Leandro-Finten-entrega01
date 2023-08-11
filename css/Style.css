@@ -306,7 +306,9 @@ border-color: var(--color-blue);
 .pc{
     display: none;
 }
-
+footer{
+    display: none;
+}
 @media (min-width: 1200px) {
     .Contenedorheader{
         display: flex;
