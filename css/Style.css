@@ -336,7 +336,12 @@ border-color: var(--color-blue);
     font-weight: 600;
     color: var(--color-gray2);
 }
-
+.desktop1__separador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
 .desktop1 {
     padding: 16px;
     background-color: var(--color-white);
