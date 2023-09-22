@@ -6,11 +6,10 @@
         "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet",
         "adidas":"imagenes/adidas (icon — Colour).png"
       },
-      {
-        "titulo": "Feb 2022 - Actualidad",
-        "Subtitulo": "Front-end Developer",
-        "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet",
-        "adidas":"imagenes/adidas (icon — Colour).png"
-      }
+        {
+          "certificado1":"imagenes/diploma_demo 1.png",
+          "certificado2":"imagenes/diploma_demo 1.png",
+          "certificado3":"imagenes/diploma_demo 1.png"
+        }
     ]
   }
