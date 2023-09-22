@@ -31,7 +31,7 @@ div2.innerHTML= certificados
 .map((cert) => `
 <div class="desktop2__1">
                 <div class="desktop2__2">
-                    <img src="imagenes/diploma_demo 1.png" alt=demo1>
+                    <img src="${cert.adidas}" alt=demo1>
                 <div class="desktop2__3">
                     <h3>Front-end Developer</h3>
                     <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
