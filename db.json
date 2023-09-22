@@ -12,5 +12,16 @@
         "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet",
         "adidas":"imagenes/adidas (icon — Colour).png"
       }
+    ],
+    "Certificados": [
+      {
+        "certificado1":""
+      },
+      {
+        "certificado2":""
+      },
+      {
+        "certificado3":""
+      }
     ]
   }
