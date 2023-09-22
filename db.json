@@ -3,12 +3,11 @@
       {
         "titulo": "Feb 2022 - Actualidad",
         "Subtitulo": "Front-end Developer",
-        "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet"
+        "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet",
+        "adidas":"imagenes/adidas (icon — Colour).png"
       },
       {
-        "titulo": "Feb 2022 - Actualidad",
-        "Subtitulo": "Front-end Developer",
-        "Lorem": "Lorem, ipsum dolor sit amet consectetur. Eget nulla eu cursus cursus pretium eu. Eget vestibulum quam aliquet"
+        
       }
     ]
   }
