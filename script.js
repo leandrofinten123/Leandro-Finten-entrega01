@@ -11,7 +11,7 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
     div1.innerHTML = experiencias
     .map((exp) => `
     <div class="desktop4__2">
-                    <div class="desktop4__3"><img class="imagenadidas" src="imagenes/${exp.adidas}" alt="adidas">
+                    <div class="desktop4__3"><img class="imagenadidas" src="imagenes/adidas (icon — Colour).png" alt="adidas">
                         <div class="desktop4__4"><p> ${exp.titulo}</p>
                         <h3>${exp.Subtitulo}</h3></div>
                     </div>
@@ -26,5 +26,3 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 })
 
 //Certificados
-
-const div2 =document.querySelector(".")
