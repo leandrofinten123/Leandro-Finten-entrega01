@@ -49,4 +49,4 @@ div2.innerHTML= certificados
                     <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
                 </div>
             </div>
-`).join();
+`).join("");
