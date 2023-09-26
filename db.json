@@ -16,15 +16,18 @@
     "Certificados": [
       {
         "certificado":"imagenes/diploma_demo 1.png",
-        "Subtitulo": "Front-end Developer"
+        "Subtitulo": "Front-end Developer",
+        "titulo": "Feb 2022 - Actualidad"
       },
       {
         "certificado":"imagenes/diploma_demo 1.png",
-        "Subtitulo": "Front-end Developer"
+        "Subtitulo": "Front-end Developer",
+        "titulo": "Feb 2022 - Actualidad"
       },
       {
         "certificado":"imagenes/diploma_demo 1.png",
-        "Subtitulo": "Front-end Developer"
+        "Subtitulo": "Front-end Developer",
+        "titulo": "Feb 2022 - Actualidad"
       }
     ]
   }

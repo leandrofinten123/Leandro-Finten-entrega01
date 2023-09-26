@@ -40,8 +40,8 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
                 <div class="desktop2__2">
                     <img src="${cert.certificado}" alt=demo1>
                 <div class="desktop2__3">
-                    <h3>Front-end Developer</h3>
-                    <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
+                    <h3>${cert.Subtitulo}</h3>
+                    <p class="desktop2__4">${cert.titulo}1</p></div>
                 </div>
                 
     `).join("");
