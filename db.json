@@ -15,13 +15,16 @@
     ],
     "Certificados": [
       {
-        "certificado":"imagenes/diploma_demo 1.png"
+        "certificado":"imagenes/diploma_demo 1.png",
+        "Subtitulo": "Front-end Developer"
       },
       {
-        "certificado":"imagenes/diploma_demo 1.png"
+        "certificado":"imagenes/diploma_demo 1.png",
+        "Subtitulo": "Front-end Developer"
       },
       {
-        "certificado":"imagenes/diploma_demo 1.png"
+        "certificado":"imagenes/diploma_demo 1.png",
+        "Subtitulo": "Front-end Developer"
       }
     ]
   }
