@@ -26,27 +26,23 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 });
 
 //Certificados
-const div2 = document.querySelector(".desktop2__1");
-div2.innerHTML= certificados
-.map((cert) => `
-<div class="desktop2__1">
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Certificados")
+.then((respuesta) => {
+    console.log(respuesta);
+    if(!respuesta.ok) throw new Error(`${respuesta.status}`);
+    return respuesta.json();
+})
+.then((certificados) => {
+    console.log(certificados);
+    const div2 = document.querySelector(".desktop2__1");
+    div2.innerHTML= certificados
+    .map((cert) => `
                 <div class="desktop2__2">
-                    <img src="${cert.adidas}" alt=demo1>
+                    <img src="${cert.certificado}" alt=demo1>
                 <div class="desktop2__3">
                     <h3>Front-end Developer</h3>
                     <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
                 </div>
-                <div class="desktop2__2">
-                <img src="imagenes/diploma_demo 1.png" alt=demo2>
-                <div class="desktop2__3">
-                    <h3>Front-end Developer</h3>
-                    <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
-                </div>
-                <div class="desktop2__2">
-                <img src="imagenes/diploma_demo 1.png" alt=demo3>
-                <div class="desktop2__3">
-                    <h3>Front-end Developer</h3>
-                    <p class="desktop2__4">Feb 2020 - Feb 2021</p></div>
-                </div>
-            </div>
-`).join("");
+                
+    `).join("");
+})
