@@ -49,7 +49,7 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 
 //Proyectos
 const section = document.querySelector(".evento");
-const div3 = document.querySelector("desktop6");
+const div3 = document.querySelector(".desktop6");
 
 fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos")
 .then((respuesta) => {
@@ -63,17 +63,22 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
         const {
             target: { id} , } = e;
     switch (id) {
-        case ".desktop5__2":
+        case "desktop5__2":
             const proyectosResponsivo = proyectos.filter((proyecto) => 
             proyecto.tipo === "Responsivo");
             mostrarProyectos(proyectosResponsivo);
+            break; 
+        case "desktop5__3":
+            const proyectosJs = proyectos.filter((proyecto) => 
+            proyecto.tipo === "JS");
+            mostrarProyectos(proyectosJs);
             break; 
             }
 })
 })
 
 function mostrarProyectos(proyectos) {
-    if (proyectos.lenght < 4) {
+    if (proyectos.length < 4) {
         imprimirProyectos(proyectos);
         return;
     }
@@ -82,7 +87,7 @@ function mostrarProyectos(proyectos) {
 
 function imprimirProyectos(proyectos) {
     div3.innerHTML = proyectos
-    .map((pro) => `div class="desktop6__1">
+    .map((pro) => `<div class="desktop6__1">
     <img src="${pro.certificado}" alt=demo1>
     <h3 class="desktop6__2">#HTML #CSS #responsive</h3>
     <h2>Título</h2>
