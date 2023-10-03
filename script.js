@@ -60,9 +60,16 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 .then((proyectos) => {
     console.log(proyectos);
     section.addEventListener("click" , (e) => {
-        console.log("hice click");
         const {
             target: { id} , } = e;
+                const botonClick = document.getElementById(id);
+                if (botonClick) {
+                const botones = document.querySelectorAll('.desktop5__1 button');
+                botones.forEach((boton) => {
+                boton.classList.remove('activo');
+                 });
+                botonClick.classList.add('activo');
+                }
     switch (id) {
         case "desktop5__2":
             const proyectosResponsivo = proyectos.filter((proyecto) => 
@@ -90,7 +97,6 @@ function mostrarProyectos(proyectos) {
     }
 }
 
-
 function imprimirProyectos(proyectos) {
     div3.innerHTML = proyectos
     .map((pro) => `<section class="desktop6_separador">
@@ -107,3 +113,4 @@ function imprimirProyectos(proyectos) {
     <button class="desktop6__6">Code</button></div>
     </section>`).join("")
 }
+
