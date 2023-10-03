@@ -29,5 +29,20 @@
         "Subtitulo": "Front-end Developer",
         "titulo": "Feb 2022 - Actualidad"
       }
+    ],
+    "Proyectos": [
+      { "nombre": "Título 1", "tipo": "JS" },
+      { "nombre": "Título 2", "tipo": "JS" },
+      { "nombre": "Título 3", "tipo": "JS" },
+      { "nombre": "Título 4", "tipo": "React" },
+      { "nombre": "Título 5", "tipo": "React" },
+      { "nombre": "Título 6", "tipo": "React" },
+      { "nombre": "Título 7", "tipo": "Responsivo" },
+      { "nombre": "Título 8", "tipo": "Responsivo" },
+      { "nombre": "Título 9", "tipo": "Responsivo" },
+      { "certificado":"imagenes/diploma_demo 1.png"},
+      { "subtitulo1": "#HTML #CSS #responsive"},
+      { "subtitulo2": "#HTML #CSS #javascript"},
+      { "subtitulo3": "#HTML #CSS #react"}
     ]
   }
