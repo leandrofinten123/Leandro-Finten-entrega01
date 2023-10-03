@@ -88,7 +88,8 @@ function mostrarProyectos(proyectos) {
 
 function imprimirProyectos(proyectos) {
     div3.innerHTML = proyectos
-    .map((pro) => `<div class="desktop6__1">
+    .map((pro) => `<section class="desktop6_separador">
+    <div class="desktop6__1">
     <img src="${pro.certificado}" alt=demo1>
     <h3 class="desktop6__2">${pro.subtitulo}</h3>
     <h2>${pro.nombre}</h2>
@@ -98,5 +99,6 @@ function imprimirProyectos(proyectos) {
     </p>
     <div class="desktop6__4">
     <button class="desktop6__5">Demo</button>
-    <button class="desktop6__6">Code</button></div>`).join("")
+    <button class="desktop6__6">Code</button></div>
+    </section>`).join("")
 }

@@ -31,20 +31,14 @@
       }
     ],
     "Proyectos": [
-      { "nombre": "Título 1", "tipo": "JS" },
-      { "nombre": "Título 2", "tipo": "JS" },
-      { "nombre": "Título 3", "tipo": "JS" },
-      { "subtitulo": "#HTML #CSS #javascript" , "tipo":"JS"},
-      { "certificado":"imagenes/diploma_demo 1.png", "tipo": "JS"},
-      { "nombre": "Título 4", "tipo": "React" },
-      { "nombre": "Título 5", "tipo": "React" },
-      { "nombre": "Título 6", "tipo": "React" },
-      { "certificado":"imagenes/diploma_demo 1.png", "tipo": "React"},
-      { "subtitulo": "#HTML #CSS #react" , "tipo":"React"},
-      { "nombre": "Título 7", "tipo": "Responsivo" },
-      { "nombre": "Título 8", "tipo": "Responsivo" },
-      { "nombre": "Título 9", "tipo": "Responsivo" },
-      { "certificado":"imagenes/diploma_demo 1.png", "tipo": "Responsivo"},
-      { "subtitulo": "#HTML #CSS #responsive", "tipo":"Responsivo"}
+      { "nombre": "Título 1", "tipo": "JS", "subtitulo": "#HTML #CSS #javascript", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 2", "tipo": "JS", "subtitulo": "#HTML #CSS #javascript", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 3", "tipo": "JS", "subtitulo": "#HTML #CSS #javascript", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 4", "tipo": "React", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 5", "tipo": "React", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 6", "tipo": "React", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 7", "tipo": "Responsivo", "subtitulo": "#HTML #CSS #responsive", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 8", "tipo": "Responsivo", "subtitulo": "#HTML #CSS #responsive", "certificado":"imagenes/diploma_demo 1.png"},
+      { "nombre": "Título 9", "tipo": "Responsivo", "subtitulo": "#HTML #CSS #responsive", "certificado":"imagenes/diploma_demo 1.png"}
     ]
   }
