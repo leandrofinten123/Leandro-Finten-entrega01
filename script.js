@@ -44,4 +44,4 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
                     <p class="desktop2__4">${cert.titulo}1</p></div>
                 </div>          
     `).join("");
-})
+});
