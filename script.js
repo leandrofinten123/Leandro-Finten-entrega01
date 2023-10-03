@@ -73,7 +73,12 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
             const proyectosJs = proyectos.filter((proyecto) => 
             proyecto.tipo === "JS");
             mostrarProyectos(proyectosJs);
-            break; 
+            break;
+        case "desktop5__4":
+            const proyectosReact = proyectos.filter((proyecto) =>
+            proyecto.tipo === "React");
+            mostrarProyectos(proyectosReact);
+            break;
             }
 })
 })
