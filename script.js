@@ -45,3 +45,52 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
                 </div>          
     `).join("");
 });
+
+
+//Proyectos
+const section = document.querySelector(".evento");
+const div3 = document.querySelector("desktop6");
+
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos")
+.then((respuesta) => {
+    console.log(respuesta);
+    if(!respuesta.ok) throw new Error(`${respuesta.status}`);
+    return respuesta.json();
+})
+.then((proyectos) => {
+    console.log(proyectos);
+    section.addEventListener("click" , (e) => {
+        const {
+            target: { id} , } = e;
+    switch (id) {
+        case ".desktop5__2":
+            const proyectosResponsivo = proyectos.filter((proyecto) => 
+            proyecto.tipo === "Responsivo");
+            mostrarProyectos(proyectosResponsivo);
+            break; 
+            }
+})
+})
+
+function mostrarProyectos(proyectos) {
+    if (proyectos.lenght < 4) {
+        imprimirProyectos(proyectos);
+        return;
+    }
+}
+
+
+function imprimirProyectos(proyectos) {
+    div3.innerHTML = proyectos
+    .map((pro) => `div class="desktop6__1">
+    <img src="${pro.certificado}" alt=demo1>
+    <h3 class="desktop6__2">#HTML #CSS #responsive</h3>
+    <h2>Título</h2>
+    <p class="desktop6__3">in this project, I work with HTML and CSS to create a responsive page.
+        The design is from devchallenge.io. Donec aliquam est dui, vel 
+        vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
+    </p>
+    <div class="desktop6__4">
+    <button class="desktop6__5">Demo</button>
+    <button class="desktop6__6">Code</button></div>`).join("")
+}
