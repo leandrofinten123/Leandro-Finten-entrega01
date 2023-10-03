@@ -64,12 +64,12 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
         const {
             target: { id} , } = e;
     switch (id) {
-        case ".desktop5__2":
+        case "desktop5__2":
             const proyectosResponsivo = proyectos.filter((proyecto) => 
             proyecto.tipo === "Responsivo");
             mostrarProyectos(proyectosResponsivo);
             break; 
-        case ".desktop5__3":
+        case "desktop5__3":
             const proyectosJs = proyectos.filter((proyecto) => 
             proyecto.tipo === "JS");
             mostrarProyectos(proyectosJs);
