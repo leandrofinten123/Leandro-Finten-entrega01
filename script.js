@@ -90,8 +90,8 @@ function imprimirProyectos(proyectos) {
     div3.innerHTML = proyectos
     .map((pro) => `<div class="desktop6__1">
     <img src="${pro.certificado}" alt=demo1>
-    <h3 class="desktop6__2">#HTML #CSS #responsive</h3>
-    <h2>Título</h2>
+    <h3 class="desktop6__2">${pro.subtitulo}</h3>
+    <h2>${pro.nombre}</h2>
     <p class="desktop6__3">in this project, I work with HTML and CSS to create a responsive page.
         The design is from devchallenge.io. Donec aliquam est dui, vel 
         vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.

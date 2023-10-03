@@ -41,8 +41,8 @@
       { "nombre": "Título 8", "tipo": "Responsivo" },
       { "nombre": "Título 9", "tipo": "Responsivo" },
       { "certificado":"imagenes/diploma_demo 1.png"},
-      { "subtitulo1": "#HTML #CSS #responsive"},
-      { "subtitulo2": "#HTML #CSS #javascript"},
-      { "subtitulo3": "#HTML #CSS #react"}
+      { "subtitulo": "#HTML #CSS #responsive"},
+      { "subtitulo": "#HTML #CSS #javascript"},
+      { "subtitulo": "#HTML #CSS #react"}
     ]
   }
