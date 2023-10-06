@@ -104,10 +104,7 @@ function imprimirProyectos(proyectos) {
     <img src="${pro.certificado}" alt=demo1>
     <h3 class="desktop6__2">${pro.subtitulo}</h3>
     <h2>${pro.nombre}</h2>
-    <p class="desktop6__3">in this project, I work with HTML and CSS to create a responsive page.
-        The design is from devchallenge.io. Donec aliquam est dui, vel 
-        vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
-    </p>
+    <p class="desktop6__3">${pro.Lorem}</p>
     <div class="desktop6__4">
     <button class="desktop6__5">Demo</button>
     <button class="desktop6__6">Code</button></div>
