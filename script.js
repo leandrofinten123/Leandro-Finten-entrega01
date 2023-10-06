@@ -50,7 +50,6 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 //Proyectos
 const section = document.querySelector(".evento");
 const div3 = document.querySelector(".desktop6");
-
 fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos")
 .then((respuesta) => {
     console.log(respuesta);
@@ -58,7 +57,6 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
     return respuesta.json();
 })
 .then((proyectos) => {
-    console.log(proyectos);
     section.addEventListener("click" , (e) => {
         const {
             target: { id} , } = e;
@@ -111,3 +109,24 @@ function imprimirProyectos(proyectos) {
     </section>`).join("")
 }
 
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos")
+.then((respuesta) => {
+    console.log(respuesta);
+    if(!respuesta.ok) throw new Error(`${respuesta.status}`);
+    return respuesta.json();
+})
+.then((pepito1) =>{
+    console.log(pepito1);
+    const div4 = document.querySelector(".pepito");
+    div4.innerHTML= pepito1
+    .map((pep) => `<section class="desktop6_separador">
+    <div class="desktop6__1">
+    <img src="${pep.certificado}" alt=demo1>
+    <h3 class="desktop6__2">${pep.subtitulo}</h3>
+    <h2>${pep.nombre}</h2>
+    <p class="desktop6__3">${pep.Lorem}</p>
+    <div class="desktop6__4">
+    <button class="desktop6__5">Demo</button>
+    <button class="desktop6__6">Code</button></div>
+    </section>`).join("")
+})
