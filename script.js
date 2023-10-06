@@ -109,7 +109,7 @@ function imprimirProyectos(proyectos) {
     </section>`).join("")
 }
 
-fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos")
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos2")
 .then((respuesta) => {
     console.log(respuesta);
     if(!respuesta.ok) throw new Error(`${respuesta.status}`);
