@@ -117,8 +117,7 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 })
 .then((pepito1) =>{
     console.log(pepito1);
-    const div4 = document.querySelector(".pepito");
-    div4.innerHTML= pepito1
+    div3.innerHTML= pepito1
     .map((pep) => `<section class="desktop6_separador">
     <div class="desktop6__1">
     <img src="${pep.certificado}" alt=demo1>
@@ -130,3 +129,4 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
     <button class="desktop6__6">Code</button></div>
     </section>`).join("")
 })
+
