@@ -62,7 +62,7 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
             target: { id} , } = e;
                 const botonClick = document.getElementById(id);
                 if (botonClick) {
-                const botones = document.querySelectorAll('.desktop5__1 button');
+                const botones = document.querySelectorAll('.desktop5 button');
                 botones.forEach((boton) => {
                 boton.classList.remove('activo');
                  });
@@ -115,15 +115,14 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
     if(!respuesta.ok) throw new Error(`${respuesta.status}`);
     return respuesta.json();
 })
-.then((pepito1) =>{
-    console.log(pepito1);
-    div3.innerHTML= pepito1
-    .map((pep) => `<section class="desktop6_separador">
+.then((proyectos3) =>{
+    div3.innerHTML= proyectos3
+    .map((pro2) => `<section class="desktop6_separador">
     <div class="desktop6__1">
-    <img src="${pep.certificado}" alt=demo1>
-    <h3 class="desktop6__2">${pep.subtitulo}</h3>
-    <h2>${pep.nombre}</h2>
-    <p class="desktop6__3">${pep.Lorem}</p>
+    <img src="${pro2.certificado}" alt=demo1>
+    <h3 class="desktop6__2">${pro2.subtitulo}</h3>
+    <h2>${pro2.nombre}</h2>
+    <p class="desktop6__3">${pro2.Lorem}</p>
     <div class="desktop6__4">
     <button class="desktop6__5">Demo</button>
     <button class="desktop6__6">Code</button></div>
