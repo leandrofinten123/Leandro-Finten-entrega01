@@ -131,5 +131,16 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 
 
 //Paginado
-
-fetch("")
+const div4= document.querySelector(".paginado")
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos3")
+.then((respuesta) => {
+    console.log(respuesta);
+    if(!respuesta.ok) throw new Error(`${respuesta.status}`);
+    return respuesta.json();})
+.then((paginado) => {
+    div4.addEventListener('click', (e) =>{
+        if (e.target.matches(".desktop7__1")){
+            
+        }
+    })
+})
