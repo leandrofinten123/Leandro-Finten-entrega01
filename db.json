@@ -61,13 +61,7 @@
       "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."}, 
      { "nombre": "Título 2", "tipo": "JS", "subtitulo": "#HTML #CSS #javascript", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png", 
      "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."},
-     { "nombre": "Título 3", "tipo": "React", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png", 
-     "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."},
-     { "nombre": "Título 4", "tipo": "Responsivo", "subtitulo": "#HTML #CSS #responsive", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png",
-       "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."}, 
-      { "nombre": "Título 5", "tipo": "JS", "subtitulo": "#HTML #CSS #javascript", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png", 
-      "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."},
-      { "nombre": "Título 6", "tipo": "React", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png", 
-      "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."}
+     { "nombre": "Título 3", "tipo": "Rec", "subtitulo": "#HTML #CSS #react", "certificado":"imagenes/e6338242e8e7d477d182eea1b7ab596b.png", 
+     "Lorem": "in this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."}
     ]
   }
