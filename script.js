@@ -132,15 +132,39 @@ fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entre
 
 //Paginado
 const div4= document.querySelector(".paginado")
-fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Proyectos3")
+fetch("https://my-json-server.typicode.com/leandrofinten123/Leandro-Finten-entrega01/Paginado")
 .then((respuesta) => {
     console.log(respuesta);
     if(!respuesta.ok) throw new Error(`${respuesta.status}`);
     return respuesta.json();})
-.then((paginado) => {
-    div4.addEventListener('click', (e) =>{
-        if (e.target.matches(".desktop7__1")){
-            
-        }
+.then((proyectos) => {
+     section.addEventListener("click" , (e) => {
+        const {
+             target: { id} , } = e;
+                    const botonClick = document.getElementById(id);
+                    if (botonClick) {
+                    const botones = document.querySelectorAll('.desktop7 button');
+                    botones.forEach((boton) => {
+                    boton.classList.remove('activo');
+                     });
+                    botonClick.classList.add('activo');
+                    }
+        switch (id) {
+            case "desktop7__2":
+                const proyectosResponsivo = proyectos.filter((proyecto) => 
+                proyecto.tipo === "Responsivo");
+                mostrarProyectos(proyectosResponsivo);
+                break; 
+            case "desktop7__3":
+                const proyectosJs = proyectos.filter((proyecto) => 
+                proyecto.tipo === "JS");
+                mostrarProyectos(proyectosJs);
+                break;
+            case "desktop7__4":
+                const proyectosReact = proyectos.filter((proyecto) =>
+                proyecto.tipo === "React");
+                mostrarProyectos(proyectosReact);
+                break;
+                }
     })
-})
+    })
